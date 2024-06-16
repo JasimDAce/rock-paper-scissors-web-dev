@@ -19,8 +19,8 @@ if(choice === ""){
 else{
     document.querySelector('.js-move')
 .innerHTML = `You
-<img src="images/${choice}-emoji.png" class="css-move-icon">
-<img src="images/${result}-emoji.png"class= "css-move-icon">
+<img src="${choice}-emoji.png" class="css-move-icon">
+<img src="${result}-emoji.png"class= "css-move-icon">
 Computer`;
 }
 
